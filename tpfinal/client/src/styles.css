@@ -1,0 +1,81 @@
+/* src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.title-maried {
+  color: black;
+}
+
+body {
+  background-color: #dd93b3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+}
+
+.box-maried {
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.adresse-conjoint {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.submit-maried {
+  margin-top: 10px;
+  background-color: #d48bd4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.submit-maried:hover {
+  background-color: #c76bc7;
+}
+
+.input-conjoint {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d48bd4;
+  outline: #d48bd4;
+}
+
+.input-conjoint::placeholder {
+  color: #bdbdbd;
+}
+
+.statut-maried {
+  margin-top: 10px;
+  background-color: #efe1ef;
+  border: #d48bd4;
+  color: #d48bd4;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.center-all {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-error {
+  color: red;
+  margin-top: 5px;
+}
